@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 18px;
+}
+
+header,
+footer {
+    background-color: rgb(162, 146, 127);
+}
+
+.site-title {
+    color: brown;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+    list-style-type: square;
+}
+
+
+.hobbies li:nth-child(odd) {
+    background-color: antiquewhite;
+
+}
+
+
+
