@@ -9,7 +9,7 @@ footer {
 }
 
 .site-title {
-    color: brown;
+    color: rgb(79, 37, 37);
 }
 
 #my-image {
@@ -32,13 +32,12 @@ nav a {
     text-decoration: none;
     background-color: beige;
     border: 1px solid #999;
-    padding: 8px 12px;
     display: inline-block;
     color: black;
 }
 nav a:hover,
 nav a:focus {
-    background-color: blueviolet;
+    background-color: crimson;
 }
 
 
