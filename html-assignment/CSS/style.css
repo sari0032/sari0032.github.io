@@ -21,8 +21,7 @@ footer {
 }
 
 .hobbies li:nth-child(odd) {
-    background-color: antiquewhite;
-
+    background-color: #faebd7;
 }
 
 nav ul {
