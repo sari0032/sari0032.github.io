@@ -1,0 +1,56 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page Background */
+body {
+    background-color: bisque;
+}
+
+/* Main */
+.page {
+    background-image:"me.jpg";
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+/* Navigation Bar*/
+.nav {
+    text-align: center;
+    padding: 15px 0;
+    background-color:blue;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+h2 {
+    margin: 20px 0 10px;
+}
+
+/* Life Section */
+.life {
+    
+}
