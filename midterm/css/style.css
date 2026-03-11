@@ -52,5 +52,51 @@ h2 {
 
 /* Life Section */
 .life {
+    display: flex;
+    gap: 15px;
     
+}
+
+.life img {
+    width: 200px;
+    height: auto;
+}
+
+/* Facts */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Form */
+.contact-form {
+    border: 1px solid #888;
+    padding: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%
+    padding: 6px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 5px 12px;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 15px;
+    font-size: 14px;
 }
