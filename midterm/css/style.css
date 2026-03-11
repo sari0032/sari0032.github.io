@@ -6,17 +6,15 @@
 
 /* BODY */
 body {
-    margin: 0px;
     background-color: #181818;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: #e6e6e6;
 }
 
-/* MAIN */
+/* PAGE */
 .page {
     width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: #282828;
 }
 
@@ -51,7 +49,7 @@ body {
 .nav a {
     text-decoration: none;
     color: #e6e6e6;
-    font-weight: 800px;
+    font-weight: 800;
     letter-spacing: 1px;
 }
 
@@ -59,6 +57,7 @@ body {
     display: inline-block;
     margin: 0 18px;
     font-size: 22px;
+    color: #e6e6e6
 }
 
 /* MAIN CONTENT */
@@ -66,21 +65,31 @@ body {
     padding: 25px;
 }
 
-/* SECTION TITLE */
+/* SECTION TITLES */
 h2 {
     white-space:nowrap;
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 36px;
     font-weight: 500;
-    letter spacing: 3px;
-    width: 300px;
+}
+
+/* CONTACT HEADING */
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.behind-brand {
+    margin-top: 20px;
 }
 
 /* IMAGE + LAYOUT */
 .Blurry {
     display: flex;
     gap: 20px;
+    align-items: flex-start;
 }
 
 /* IMAGE SIZE */
@@ -92,6 +101,11 @@ h2 {
 /* TEXT AREA */
 .text {
     flex: 1;
+}
+
+.Blurry p {
+    text-indent: 30px;
+    line-height: 1.5;
 }
 
 /* FACTS */
@@ -110,9 +124,9 @@ li {
     background: #181818;
 }
 
-.contact-form .radio-group label{
-    display: inline;
-    margin-right: 10px;
+.contact-form label {
+    display: block;
+    margin-top: 10px;
 }
 
 .contact-form input,
@@ -120,12 +134,33 @@ li {
     width: 100%;
     padding: 6px;
     margin-top: 5px;
+    margin-bottom: 20px;
     background: #282828;
     border: 1px solid #282828; 
+    color: #e6e6e6
+}
+
+.visit-question {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group label{
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 25px;
+}
+
+.radio-group input {
+    width: auto; 
+    margin-right: 4px;
 }
 
 .contact-form button {
-    margin-top: 15px;
     padding: 6px 12px;
     background: #282828;
     color: #e6e6e6;
@@ -137,4 +172,5 @@ footer {
     text-align: right;
     padding: 15px;
     font-size: 14px;
+    color: #e6e6e6
 }
