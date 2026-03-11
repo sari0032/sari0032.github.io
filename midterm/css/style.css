@@ -41,16 +41,24 @@ body {
 
 /* NAVIGATION */
 .nav {
-    text-align: center;
-    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
     background-color: #181818;
 }
 
 .nav a {
     text-decoration: none;
     color: #e6e6e6;
-    margin: 0 10px;
-    font-weight: bold;
+    font-weight: 800px;
+    letter-spacing: 1px;
+}
+
+.nav span {
+    display: inline-block;
+    margin: 0 18px;
+    font-size: 22px;
 }
 
 /* MAIN CONTENT */
@@ -60,7 +68,13 @@ body {
 
 /* SECTION TITLE */
 h2 {
+    white-space:nowrap;
+    margin-top: 20px;
     margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 500;
+    letter spacing: 3px;
+    width: 300px;
 }
 
 /* IMAGE + LAYOUT */
@@ -71,7 +85,7 @@ h2 {
 
 /* IMAGE SIZE */
 .Blurry img {
-    width: 200px;
+    width: 275px;
     height: auto;
 }
 
@@ -96,9 +110,9 @@ li {
     background: #181818;
 }
 
-.contact-form label {
-    display: block;
-    margin-top: 10px;
+.contact-form .radio-group label{
+    display: inline;
+    margin-right: 10px;
 }
 
 .contact-form input,
