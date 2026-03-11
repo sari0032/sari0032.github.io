@@ -6,16 +6,18 @@
 
 /* BODY */
 body {
-    background-color: #e8e6e2;
+    margin: 0px;
+    background-color: #181818;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    color: #2f2f2f;
+    color: #e6e6e6;
 }
 
 /* MAIN */
 .page {
     width: 900px;
-    margin: auto;
-    background-color: #f5f4f2;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282828;
 }
 
 /* HEADER */
@@ -23,7 +25,7 @@ body {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
-    height: 220px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,21 +33,22 @@ body {
 
 /* HERO TITLE */
 .hero h1 {
-    color: white;
-    font-size: 48px;
-    font-weight: normal;
+    color: #e6e6e6;
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: 3px;
 }
 
 /* NAVIGATION */
 .nav {
     text-align: center;
     padding: 15px;
-    background-color: #d6d4cf;
+    background-color: #181818;
 }
 
 .nav a {
     text-decoration: none;
-    color: #333;
+    color: #e6e6e6;
     margin: 0 10px;
     font-weight: bold;
 }
@@ -68,7 +71,7 @@ h2 {
 
 /* IMAGE SIZE */
 .Blurry img {
-    width: 200 px;
+    width: 200px;
     height: auto;
 }
 
@@ -88,8 +91,9 @@ li {
 
 /* CONTACT FORM */
 .contact-form {
-    border: 1px solid #cfcfcf;
+    border: 1px solid #181818;
     padding: 15px;
+    background: #181818;
 }
 
 .contact-form label {
@@ -102,11 +106,16 @@ li {
     width: 100%;
     padding: 6px;
     margin-top: 5px;
+    background: #282828;
+    border: 1px solid #282828; 
 }
 
 .contact-form button {
     margin-top: 15px;
     padding: 6px 12px;
+    background: #282828;
+    color: #e6e6e6;
+    border: none;
 }
 
 /* FOOTER */
