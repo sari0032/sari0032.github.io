@@ -100,7 +100,7 @@ body {
 }
 
 .team-role {
-    border-bottom: 2px solid #c78c06
+    border-bottom: 2px solid #c78c06;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     font-weight: bold;
@@ -158,34 +158,35 @@ body {
 }
 
 /* Mobile-first desktop enhancement */
-@media screen and (min-width: 760px)
+@media screen and (min-width: 760px) {
     .main-nav .nav-list {
         flex-direction: row;
         justify-content: space-between;
     }
 
-.about-section {
+    .about-section {
     display: flex;
     gap: 1rem;
     align-items: center;
-}
+    }
 
-.vision-section {
+    .vision-section {
     position: relative;
-}
+    }
 
-.services-section {
+    .services-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-}
+    }
 
-.services-section .section-title {
+    .services-section .section-title {
     grid-column: 1 / -1;
-}
+    }
 
-.team-member {
+    .team-member {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
+    }
 }
