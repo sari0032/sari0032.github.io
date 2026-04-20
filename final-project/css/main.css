@@ -44,7 +44,7 @@ img {
 }
 
 .logo-container {
-    width: 100px;
+    width: 60px;
     margin-bottom: 1rem;
 }
 
@@ -71,6 +71,7 @@ img {
     flex: 1;
     padding: 0.75rem;
     border: 1px solid #c78c06;
+    width: 200px;
 }
 
 .search-input {
@@ -80,7 +81,7 @@ img {
 }
 
 .search-button {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem;
     border: 1px solid #c78c06;
     background-color: #222;
     color: #c78c06;
@@ -101,6 +102,9 @@ img {
     background-color: rgba(34, 34, 34, 0.7);
     color: white;
     padding: 2rem;
+    width: 45%;
+    top: 1rem;
+    left: 1.5rem;
 }
 
 .hero-title {
@@ -230,10 +234,20 @@ img {
     margin-bottom: 1rem;
 }
 
+.contact-section {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.contact-section .section-title {
+    margin-bottom: 0.5rem;
+}
+
 .contact-form-container,
 .hours-container,
 .location-container {
     margin-bottom: 2rem;
+    align-self: start;
 }
 
 .form-group {
@@ -355,7 +369,7 @@ img {
     }
 
     .hero-title {
-        font-size: 4.25rem;
+        font-size: 3rem;
         line-height: 1.15;
         margin-bottom: 1.25rem;
     }
